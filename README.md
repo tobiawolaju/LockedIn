@@ -1,29 +1,62 @@
-# IF·THEN  
-### See the future your choices create.
+# LockedIn
+### Plan your day. Actually do it.
 
-**IF·THEN** is a personal consequence simulator that turns daily decisions into visible futures.
+**LockedIn** is a day planner built around one idea: the gap between what you intend to do and what you actually do.
 
-Core features include:
-- Daily route crafting  
-- Natural language route queries  
-- Automatic Google Calendar sync
-
-It helps people move from intention to action by making time, habits, and trade-offs tangible.  
-Not as motivation — but as cause and effect.
-
-> If you keep living like this… then this is where you end up.
+It gives you a structured way to map your day, query your schedule in plain language, and sync everything to Google Calendar — so your plan lives where your life does.
 
 ---
 
-## Why IF·THEN exists
+## Core features
 
-Procrastination isn’t laziness.  
-It’s uncertainty.
+- **Daily route crafting** — block your day visually, task by task, with time attached
+- **Natural language queries** — ask your schedule questions the way you think them
+- **Google Calendar sync** — your plan pushes directly into your existing calendar
 
-Most people don’t change because the future is abstract.  
-IF·THEN makes the future concrete.
+---
 
-Instead of asking *what you want to do*, IF·THEN shows you *what happens if you don’t* — and how small changes compound over time.
+## How it works
+
+Most planners ask you what you *want* to do.  
+LockedIn asks you what you're *committing* to — then holds it.
+
+1. Build your route for the day: tasks, blocks, order, duration
+2. Query it naturally — *"when's my first gap?"*, *"what's after lunch?"*
+3. Lock it in — syncs to Google Calendar, no manual copy-paste
+
+That's it. No dashboards. No streaks. No gamification.  
+Just your day, structured, synced, and ready.
+
+---
+
+## Why LockedIn exists
+
+The problem isn't motivation.  
+It's that most plans exist only in your head — vague, unscheduled, easy to ignore.
+
+LockedIn makes your day tangible before it starts.  
+When something is on the calendar with a time and a duration, the friction to skip it goes up.  
+That's the whole mechanic.
+
+---
+
+## Stack
+
+- Natural language query layer
+- Google Calendar API integration
+- Daily route builder (visual block scheduling)
+
+---
+
+## Status
+
+Active development.
+
+---
+
+## License
+
+MIT
 
 ---
 
