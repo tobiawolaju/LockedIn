@@ -48,7 +48,7 @@ export default function LandingPage({ onLogin }) {
                                 LockedIn
                             </h1>
                             <div className="brand-subtitle fade-in-up" style={{ animationDelay: '0.2s' }}>
-                                The Next Era of Agentic Productivity
+                                Plan your days and actually do it.
                             </div>
                         </div>
                     </div>
