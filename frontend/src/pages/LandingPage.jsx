@@ -45,7 +45,7 @@ export default function LandingPage({ onLogin }) {
                     >
                         <div className="hero-glow-container">
                             <h1 className="brand-title fade-in-up">
-                                IF·THEN
+                                LockedIn
                             </h1>
                             <div className="brand-subtitle fade-in-up" style={{ animationDelay: '0.2s' }}>
                                 The Next Era of Agentic Productivity

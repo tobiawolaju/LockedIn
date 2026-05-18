@@ -12,7 +12,7 @@ export default function Header({ user, onLogout, onProfileClick }) {
         <header className="floating-header">
             <div className="header-search-bar">
                 <div className="search-logo">
-                    <span className="logo-text">IF·THEN</span>
+                    <span className="logo-text">LockedIn</span>
                 </div>
                 <div className="search-content">
                     <span id="current-date" className="hidden-mobile">

@@ -28,7 +28,7 @@ app.use(cors());
 app.use(express.json());
 
 // Health Check
-app.get("/", (req, res) => res.status(200).send("IF·THEN Backend is alive."));
+app.get("/", (req, res) => res.status(200).send("LockedIn Backend is alive."));
 
 // --------------------
 // Activity Management Routes (Direct)
@@ -463,7 +463,7 @@ app.post("/api/check-futures-status", async (req, res) => {
 // --------------------
 // Conversational Chat API
 // --------------------
-const LIFE_PLANNER_PROMPT = `You are a life planning assistant for IF·THEN - a personal consequence simulator.
+const LIFE_PLANNER_PROMPT = `You are a life planning assistant for LockedIn - a personal consequence simulator.
 
 Your role is to help users transform their goals and dreams into actionable daily routines.
 

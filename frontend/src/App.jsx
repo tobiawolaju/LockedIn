@@ -35,12 +35,12 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  if (authLoading) return <div className="loading">Initializing...</div>;
+  if (authLoading) return <div className="loading">LockedIn</div>;
 
   return (
     <ErrorBoundary>
       <div id="splash-screen" className={!showSplash ? 'fade-out' : ''}>
-        <div className="splash-logo"></div>
+        <div className="splash-logo">LockedIn</div>
       </div>
 
       {!user ? (
